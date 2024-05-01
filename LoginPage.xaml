@@ -4,15 +4,31 @@
              xmlns:local="clr-namespace:Onward"
              x:Class="Onward.LoginPage"
              Title="Login">
-        <VerticalStackLayout>
-            <Grid RowDefinitions="*,*,*,*">
-            <Entry x:Name="Username"  Grid.Row="1" VerticalOptions="Center"
+    <VerticalStackLayout>
+        <Grid RowDefinitions="*,*,*,*,*,*,*" >
+            <Image VerticalOptions="Center"
+                   WidthRequest="200" Margin="30" Grid.Row="1" Source="Logo.png"  
+                   SemanticProperties.Description="Create,Edit,View,All in one"
+                   />
+            <Label 
+            Text="Welcome to ONWaRD!"
+            FontSize="Title"
+            Grid.Row="2"  Margin="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+             Text="Create,Edit,View, All in one"
+             FontSize="Micro"
+             Grid.Row="3"  Margin="5"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            <Entry x:Name="Username"  Grid.Row="4" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" Placeholder="Username" />
-            <Entry x:Name="Password" Placeholder="Password"  Grid.Row="2" VerticalOptions="Center"
+            <Entry x:Name="Password" Placeholder="Password"  Grid.Row="5" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" IsPassword="true" />
-            <Button Text="Login" Clicked="LoginAndAuthenticate"  Grid.Row="3" VerticalOptions="Center"
+            <Button Text="Login" Clicked="LoginAndAuthenticate"  Grid.Row="6" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" />
             </Grid>
