@@ -1,7 +1,7 @@
 using System.Net;
 
 namespace Onward;
-
+/*This file is create by Vinh. Modified by Vinh*/
 public partial class About : ContentPage
 {
 	public About()
