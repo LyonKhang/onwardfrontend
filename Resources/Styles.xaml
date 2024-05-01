@@ -5,27 +5,32 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Onward"
     >
-
+<!-- This will controll element of icon located at AuthAppShell . the icon is located at Styles.xaml-->
     <FontImage x:Key="IconOne"
                FontFamily="FontAwesome"
-               Size="22"
-               Color="{StaticResource Primary}"
-               Glyph="{x:Static local:IconFont.DiceOne}"/>
+               Size="25"
+               Color="{StaticResource Yellow100Accent}"
+               Glyph="{x:Static local:IconFont.FileUpload}"/>
     <FontImage x:Key="IconTwo"
                FontFamily="FontAwesome"
-               Size="22"
-               Color="{StaticResource Primary}"
-               Glyph="{x:Static local:IconFont.DiceTwo}"/>
+               Size="25"
+               Color="{StaticResource Yellow100Accent}"
+               Glyph="{x:Static local:IconFont.FileInvoice}"/>
     <FontImage x:Key="IconThree"
                FontFamily="FontAwesome"
-               Size="22"
-               Color="{StaticResource Primary}"
+               Size="25"
+               Color="{StaticResource Yellow100Accent}"
                Glyph="{x:Static local:IconFont.DiceThree}"/>
     <FontImage x:Key="IconFour"
                FontFamily="FontAwesome"
-               Size="22"
-               Color="{StaticResource Primary}"
-               Glyph="{x:Static local:IconFont.DiceFour}"/>
+               Size="25"
+               Color="{StaticResource Yellow100Accent}"
+               Glyph="{x:Static local:IconFont.UserEdit}"/>
+    <FontImage x:Key="Logo"
+           FontFamily="FontAwesome"
+           Size="25"
+           Color="{StaticResource Yellow100Accent}"
+           Glyph="{x:Static local:IconFont.Clipboard}"/>
 
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />

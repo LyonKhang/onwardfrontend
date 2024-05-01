@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Onward.About"
+             Title="About">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="*,*,*,*,*,*" >
+            <Image VerticalOptions="Center"
+       WidthRequest="200" Margin="30" Grid.Row="1" Source="Logo.png"  
+       SemanticProperties.Description="Create,Edit,View,in one"
+       />
+            <!--this is text-->
+            <Label 
+            Text="ONWaRD is short for Online Network for Writing and Retrieving Data. where companies and users can electronically manage all their data, enabling them to go paperless!"
+            FontSize="Medium"
+            Grid.Row="2" WidthRequest="600" Margin="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="Link to our Projects:"
+            FontSize="Small"
+            Grid.Row="3" WidthRequest="600" Margin="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <!--this is  linking button(Vinh)-->
+            <Button Text="BackEnd" Clicked="linkBackEnd"  Grid.Row="4" VerticalOptions="Center"
+           WidthRequest="300" Margin="10"
+           HorizontalOptions="Center" />
+            <Button Text="FrontEnd" Clicked="linkFrontEnd"  Grid.Row="5" VerticalOptions="Center"
+            WidthRequest="300" Margin="10"
+            HorizontalOptions="Center" />               
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
