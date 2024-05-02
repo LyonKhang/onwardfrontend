@@ -11,10 +11,10 @@
 WidthRequest="80" Margin="30"  Source="customer.png"  
 />
             <Entry x:Name="CustCompany" Grid.Row="1" VerticalOptions="Center"
-                    WidthRequest="300" Margin="10"
+                    WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"
                 HorizontalOptions="Center"  Placeholder="Company"  />
             <Entry x:Name="CustContactPerson" Grid.Row="2"  VerticalOptions="Center"
-                    WidthRequest="300" Margin="10"
+                    WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"
                 HorizontalOptions="Center"  Placeholder="Contact Person" />
             <Button Text="Cancel" Grid.Row="3"  VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
