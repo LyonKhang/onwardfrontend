@@ -6,6 +6,9 @@
     <!-- This is all the button for the tabs manage(Vinh)-->
     <VerticalStackLayout Spacing="6" Margin="50">
         <Grid RowDefinitions="*,*,*,*,*">
+            <Image VerticalOptions="Center"
+WidthRequest="80" Margin="30"  Source="manage.png"  
+/>
             <!--TODO: fix Invoices-->
             <Button Text="View Invoices" Grid.Row="1" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"

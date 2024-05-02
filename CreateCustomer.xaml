@@ -7,6 +7,9 @@
 
     <VerticalStackLayout  Spacing="6" Margin="50">
         <Grid RowDefinitions="*,*,*,*,*">
+            <Image VerticalOptions="Center"
+WidthRequest="80" Margin="30"  Source="customer.png"  
+/>
             <Entry x:Name="CustCompany" Grid.Row="1" VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
                 HorizontalOptions="Center"  Placeholder="Company"  />

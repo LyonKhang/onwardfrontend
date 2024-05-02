@@ -5,6 +5,9 @@
              Title="Settings">
     <VerticalStackLayout Spacing="6" Margin="50">
         <Grid RowDefinitions="*,*,*,*,*">
+            <Image VerticalOptions="Center"
+WidthRequest="80" Margin="30"  Source="setting.png"  
+/>
             <Button Text="Create User" Grid.Row="1" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center"  Clicked="CreateUser"/>
