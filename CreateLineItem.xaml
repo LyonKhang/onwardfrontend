@@ -11,16 +11,16 @@ WidthRequest="80" Margin="30"  Source="product.png"
 />
             <Entry x:Name="EmpName" Grid.Row="2" VerticalOptions="Center"
                     WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"  IsTextPredictionEnabled="True"
-                HorizontalOptions="Center" Placeholder="Enter Name" />
+                HorizontalOptions="Center"  PlaceholderColor="LightSalmon" Placeholder="Enter Name" />
             <Entry x:Name="EmpQuantity" Grid.Row="3" VerticalOptions="Center"
                     WidthRequest="300" Margin="10" 
-                HorizontalOptions="Center" Placeholder="Enter Quanity" />
+                HorizontalOptions="Center"  PlaceholderColor="LightSalmon" Placeholder="Enter Quanity" />
             <Entry x:Name="EmpDescription" Grid.Row="4" VerticalOptions="Center"
                     WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"  IsTextPredictionEnabled="True"
-                HorizontalOptions="Center" Placeholder="Enter Description" />
+                HorizontalOptions="Center"   PlaceholderColor="LightSalmon" Placeholder="Enter Description" />
             <Entry x:Name="EmpPrice"  Grid.Row="5" VerticalOptions="Center"
                     WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"  IsTextPredictionEnabled="True"
-                HorizontalOptions="Center" Placeholder="Enter Price" />
+                HorizontalOptions="Center"  PlaceholderColor="LightSalmon" Placeholder="Enter Price" />
             <Button Text="Cancel"  Grid.Row="6" VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
                 HorizontalOptions="Center" Clicked="Cancel" />

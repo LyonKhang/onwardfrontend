@@ -26,10 +26,10 @@
              HorizontalOptions="Center" />
             <!-- this is where user interaction with the user(Vinh)-->
             <Entry x:Name="Username"  Grid.Row="4" VerticalOptions="Center"
-                   WidthRequest="300" Margin="10"
-                   HorizontalOptions="Center" Placeholder="Username" />
+                   WidthRequest="300" Margin="10" Keyboard="Default" 
+                   HorizontalOptions="Center"  PlaceholderColor="LightSalmon" Placeholder="Username" />
             <Entry x:Name="Password" Placeholder="Password"  Grid.Row="5" VerticalOptions="Center"
-                   WidthRequest="300" Margin="10"
+                   WidthRequest="300" Margin="10" Keyboard="Default" PlaceholderColor="LightSalmon"
                    HorizontalOptions="Center" IsPassword="true" />
             
             <!--what sure the button work-->
