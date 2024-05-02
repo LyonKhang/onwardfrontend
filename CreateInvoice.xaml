@@ -6,7 +6,10 @@
              Title="CreateInvoice">
 
     <VerticalStackLayout  Spacing="6" Margin="50">
-            <!--<Entry x:Name="InvCustomer" Placeholder="Customer" VerticalOptions="Center"
+        <Image VerticalOptions="Center"
+WidthRequest="80" Margin="30"  Source="invoice.png"  
+/>
+        <!--<Entry x:Name="InvCustomer" Placeholder="Customer" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center"/>-->
             <!--DropdownBox here for contact person-->
