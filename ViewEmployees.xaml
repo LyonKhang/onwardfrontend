@@ -5,12 +5,12 @@
              x:Class="Onward.ViewEmployees"
              x:DataType="local:ViewEmployees"
              Title="View Employees">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="6" Margin="50">
         <CollectionView ItemsSource="{Binding Employees}">
             <CollectionView.Header>
                 <Grid ColumnDefinitions="*,*" Padding="10">
-                    <Label Text="Name" />
-                    <Label Text="Role" Grid.Column="1" />
+                    <Label Text=" Name"  FontSize="22" FontAttributes="Bold"/>
+                    <Label Text=" Role" Grid.Column="1" FontSize="22" FontAttributes="Bold"/>
                 </Grid>
             </CollectionView.Header>
             <CollectionView.ItemTemplate>

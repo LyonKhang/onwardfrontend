@@ -10,11 +10,11 @@
             <CollectionView.Header>
                 <Grid ColumnDefinitions="*,*" Padding="10">
                     <Label Text=" Company"
-                           BackgroundColor="OrangeRed" FontSize="22" FontAttributes="Bold"
-                           Margin="20"/>
+                            FontSize="22" FontAttributes="Bold"
+                           />
                     <Label Text=" Contact Person" Grid.Column="1" 
-                           BackgroundColor="DarkRed" FontSize="22" FontAttributes="Bold"
-                           Margin="20"/>
+                            FontSize="22" FontAttributes="Bold"
+                           />
                 </Grid>
             </CollectionView.Header>
             <CollectionView.ItemTemplate>
