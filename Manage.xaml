@@ -3,24 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Onward.Manage"
              Title="Manage">
-    <!-- This is all the button for the tabs manage(Vinh)-->
+    <!-- This is all the button for the tabs manage(Vinh) form of each types-->
     <VerticalStackLayout Spacing="6" Margin="50">
-        <Grid RowDefinitions="*,*,*,*,*">
+        <Grid RowDefinitions="*,*,*,*,*,*">
             <Image VerticalOptions="Center"
 WidthRequest="80" Margin="30"  Source="manage.png"  
 />
+            <Label 
+     Text="See your current stored forms"
+     FontSize="Micro"
+     Margin="5" Grid.Row="1"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center" />
             <!--TODO: fix Invoices-->
-            <Button Text="View Invoices" Grid.Row="1" VerticalOptions="Center"
+            <Button Text="View Invoices" Grid.Row="2" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" Clicked="ViewInvoices" />
             <!--Bewlow still work-->
-            <Button Text="View Line Items" Grid.Row="2" VerticalOptions="Center"
+            <Button Text="View Line Items" Grid.Row="3" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center"  Clicked="ViewLineItems" />
-        <Button Text="View Customers" Grid.Row="3" VerticalOptions="Center"
+        <Button Text="View Customers" Grid.Row="4" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" Clicked="ViewCustomers" />
-            <Button Text="View Employees" Grid.Row="4" VerticalOptions="Center"
+            <Button Text="View Employees" Grid.Row="5" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" Clicked="ViewEmployees" />
         

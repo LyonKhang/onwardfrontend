@@ -9,7 +9,7 @@
        WidthRequest="80" Margin="30"  Source="person.png"  
        />
             <Entry x:Name="Username" Placeholder="Username" Grid.Row="1" VerticalOptions="Center"
-                    WidthRequest="300" Margin="10"
+                    WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"  IsTextPredictionEnabled="True"
                 HorizontalOptions="Center" />
             <Entry x:Name="Email" Placeholder="Email" Grid.Row="2" VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
@@ -18,7 +18,7 @@
                     WidthRequest="300" Margin="10"
                 HorizontalOptions="Center"/>
             <Entry x:Name="Roles" Placeholder="Roles" Grid.Row="4"  VerticalOptions="Center"
-                    WidthRequest="300" Margin="10"
+                    WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"  IsTextPredictionEnabled="True"
                 HorizontalOptions="Center" />
             <Button Text="Cancel" Clicked="Cancel" Grid.Row="5"  VerticalOptions="Center"
                     WidthRequest="300" Margin="10"

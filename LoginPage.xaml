@@ -15,11 +15,11 @@
             <Label 
             Text="Welcome to ONWaRD!"
             FontSize="Title"
-            Grid.Row="2"  Margin="20"
+            Grid.Row="2"  Margin="10"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
             <Label 
-             Text="Create,Edit,View, All in one"
+             Text="Create and view in a few clicks"
              FontSize="Micro"
              Grid.Row="3"  Margin="5"
              VerticalOptions="Center" 

@@ -4,21 +4,28 @@
              x:Class="Onward.Create"
              Title="Create"
              >
+    <!--This a page about Create tabs that have button to each create -->
     <VerticalStackLayout Spacing="6" Margin="50" >
-        <Grid RowDefinitions="*,*,*,*,*">
+        <Grid RowDefinitions="*,*,*,*,*,*">
             <Image VerticalOptions="Center"
-WidthRequest="80" Margin="30"  Source="create.png"  
+                WidthRequest="80" Margin="30"  Source="create.png"  
 />
-            <Button Text="New Invoice" Grid.Row="1" VerticalOptions="Center"
+            <Label 
+                 Text="Make a form"
+                 FontSize="Micro"
+                 Margin="5" Grid.Row="1"
+                 VerticalOptions="Center" 
+                 HorizontalOptions="Center" />
+            <Button Text="New Invoice" Grid.Row="2" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                    HorizontalOptions="Center" Clicked="NewInvoiceClicked" />
-            <Button Text="New Line Item" Grid.Row="2" VerticalOptions="Center"
+            <Button Text="New Line Item" Grid.Row="3" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
                 HorizontalOptions="Center" Clicked="NewLineItemClicked"/>
-            <Button Text="New Customer" Grid.Row="3"  VerticalOptions="Center"
+            <Button Text="New Customer" Grid.Row="4"  VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
                 HorizontalOptions="Center" Clicked="NewCustomerClicked"/>
-            <Button Text="New Employee" Grid.Row="4"  VerticalOptions="Center"
+            <Button Text="New Employee" Grid.Row="5"  VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
                 HorizontalOptions="Center" Clicked="NewEmployeeClicked" />
         </Grid>

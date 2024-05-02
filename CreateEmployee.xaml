@@ -11,9 +11,9 @@
 WidthRequest="80" Margin="30"  Source="employee.png"  
 />
                 <Entry x:Name="EmpName"  Grid.Row="1" VerticalOptions="Center"
-                   WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"
+                   WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"  IsTextPredictionEnabled="True"
                    HorizontalOptions="Center" Placeholder="Enter Name" />
-        <Entry x:Name="EmpRole"  Grid.Row="2" VerticalOptions="Center"
+            <Entry x:Name="EmpRole"  Grid.Row="2" VerticalOptions="Center" IsTextPredictionEnabled="True"
                    WidthRequest="300" Margin="10" IsSpellCheckEnabled="True"
                    HorizontalOptions="Center" Placeholder="Enter Role" />
         <Button Text="Cancel"  Grid.Row="3" VerticalOptions="Center"
