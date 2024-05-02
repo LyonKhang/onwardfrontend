@@ -6,6 +6,9 @@
              Title="CreateLineItem">
     <StackLayout Spacing="6" Margin="50">
         <Grid RowDefinitions="*,*,*,*,*,*,*,*,*">
+            <Image VerticalOptions="Center"
+WidthRequest="80" Margin="30"  Source="product.png"  
+/>
             <Entry x:Name="EmpName" Grid.Row="2" VerticalOptions="Center"
                     WidthRequest="300" Margin="10"
                 HorizontalOptions="Center" Placeholder="Enter Name" />
