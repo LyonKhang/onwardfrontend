@@ -16,14 +16,14 @@ WidthRequest="80" Margin="30"  Source="invoice.png"
             <!--DropdownBox for employees here-->
             <!--ItemSelector page-->
             <Entry x:Name="InvDate" IsEnabled="False" VerticalOptions="Center"
-                   WidthRequest="300" Margin="10"
+                   WidthRequest="300" Margin="10" PlaceholderColor="LightSalmon"
                    HorizontalOptions="Center"/>
             <!--Automatically generate?-->
             <Entry x:Name="InvNumber" Placeholder="Invoice Number" VerticalOptions="Center"
-                   WidthRequest="300" Margin="10"
+                   WidthRequest="300" Margin="10" PlaceholderColor="LightSalmon"
                    HorizontalOptions="Center"/>
             <Entry x:Name="InvMisc" Placeholder="Other Comments" VerticalOptions="Center"
-                   WidthRequest="300" Margin="10"
+                   WidthRequest="300" Margin="10" PlaceholderColor="LightSalmon"
                    HorizontalOptions="Center" />
             <Button Text="Cancel" Clicked="Cancel" VerticalOptions="Center"
                    WidthRequest="300" Margin="10"
