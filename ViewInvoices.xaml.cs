@@ -13,16 +13,16 @@ public partial class ViewInvoices : ContentPage
         get { return invoices; }
         set { invoices = value; }
     }
+    //this will initialized 
     public ViewInvoices()
 	{
-        serverSocket = new();
-        invoicesDe = [];
-        invoices = [];
-
-        BindingContext = this;
+        serverSocket = new();   //create server
+        invoicesDe = [];        //empty
+        invoices = [];          //empty
+        BindingContext = this;  //bind property to this
         InitializeComponent();
     }
-
+    //this funtion ask backends to to retrieve
     private async void PopulateInvoices()
     {
         var (json, success) = await serverSocket.GetAsync("/invoices/getinvoices");
