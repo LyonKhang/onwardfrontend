@@ -5,14 +5,18 @@
              x:Class="Onward.ViewLineItems"
              x:DataType="local:ViewLineItems"
              Title="View Line Items">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="6" Margin="50">
         <CollectionView ItemsSource="{Binding LineItems}">
             <CollectionView.Header>
                 <Grid ColumnDefinitions="*,*,*,*" Padding="10">
-                    <Label Text="Name" />
-                    <Label Text="Quantity" Grid.Column="1" />
-                    <Label Text="Description" Grid.Column="2" />
-                    <Label Text="Price" Grid.Column="3" />
+                    <Label Text="Name"
+                             FontSize="22" FontAttributes="Bold"    />
+                    <Label Text="Quantity" Grid.Column="1"
+                         FontSize="22" FontAttributes="Bold"  />
+                    <Label Text="Description" Grid.Column="2" 
+                           FontSize="22" FontAttributes="Bold"/>
+                    <Label Text="Price"
+                            FontSize="22" FontAttributes="Bold"  Grid.Column="3" />
                 </Grid>
             </CollectionView.Header>
             <CollectionView.ItemTemplate>

@@ -5,13 +5,16 @@
              x:Class="Onward.ViewInvoices"
              x:DataType="local:ViewInvoices"
              Title="View Invoices">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="6" Margin="50">
         <CollectionView ItemsSource="{Binding Invoices}">
             <CollectionView.Header>
                 <Grid ColumnDefinitions="*,*,*,*,*" Padding="10">
-                    <Label Text="Items" />
-                    <Label Text="Date" Grid.Column="1" />
-                    <Label Text="InvoiceNumber" Grid.Column="2" />
+                    <Label Text="Items"  
+                           FontSize="22" FontAttributes="Bold"/>
+                    <Label Text="Date" Grid.Column="1" 
+                            FontSize="22" FontAttributes="Bold"/>
+                    <Label Text="InvoiceNumber" Grid.Column="2"
+                            FontSize="22" FontAttributes="Bold" />
                 </Grid>
             </CollectionView.Header>
             <CollectionView.ItemTemplate>

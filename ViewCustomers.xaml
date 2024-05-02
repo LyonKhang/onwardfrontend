@@ -5,19 +5,23 @@
              x:Class="Onward.ViewCustomers"
              x:DataType="local:ViewCustomers"
              Title="View Customers">
-    <VerticalStackLayout>
+    <VerticalStackLayout  Spacing="6" Margin="50">
         <CollectionView ItemsSource="{Binding Customers}">
             <CollectionView.Header>
                 <Grid ColumnDefinitions="*,*" Padding="10">
-                    <Label Text="Company" />
-                    <Label Text="Contact Person" Grid.Column="1" />
+                    <Label Text=" Company"
+                            FontSize="22" FontAttributes="Bold"
+                           />
+                    <Label Text=" Contact Person" Grid.Column="1" 
+                            FontSize="22" FontAttributes="Bold"
+                           />
                 </Grid>
             </CollectionView.Header>
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="local:Customer">
                     <Grid ColumnDefinitions="*,*" Padding="10">
-                        <Label Text="{Binding Company}" />
-                        <Label Text="{Binding ContactPerson}" Grid.Column="1" />
+                        <Label Text="{Binding Company} " Margin="24" />
+                        <Label Text="{Binding ContactPerson}" Grid.Column="1" Margin="24" />
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

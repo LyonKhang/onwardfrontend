@@ -3,10 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Onward.Manage"
              Title="Manage">
-    <VerticalStackLayout>
-        <Button Text="View Invoices" Clicked="ViewInvoices" />
-        <Button Text="View Line Items" Clicked="ViewLineItems" />
-        <Button Text="View Customers" Clicked="ViewCustomers" />
-        <Button Text="View Employees" Clicked="ViewEmployees" />
+    <!-- This is all the button for the tabs manage(Vinh)-->
+    <VerticalStackLayout Spacing="6" Margin="50">
+        <Grid RowDefinitions="*,*,*,*,*">
+            <!--TODO: fix Invoices-->
+            <Button Text="View Invoices" Grid.Row="1" VerticalOptions="Center"
+                   WidthRequest="300" Margin="10"
+                   HorizontalOptions="Center" Clicked="ViewInvoices" />
+            <!--Bewlow still work-->
+            <Button Text="View Line Items" Grid.Row="2" VerticalOptions="Center"
+                   WidthRequest="300" Margin="10"
+                   HorizontalOptions="Center"  Clicked="ViewLineItems" />
+        <Button Text="View Customers" Grid.Row="3" VerticalOptions="Center"
+                   WidthRequest="300" Margin="10"
+                   HorizontalOptions="Center" Clicked="ViewCustomers" />
+            <Button Text="View Employees" Grid.Row="4" VerticalOptions="Center"
+                   WidthRequest="300" Margin="10"
+                   HorizontalOptions="Center" Clicked="ViewEmployees" />
+        
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
